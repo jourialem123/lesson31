@@ -24,3 +24,30 @@ body{
 .text-white{
     color:white;
 }
+/*Main container height*/
+.main-container{
+    height:600px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center ;
+    background-image: url("ippp.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*Aligning items in main row*/
+.main-row{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+/*Changing name font-size*/
+.main_row h1{
+    font-size: 5rem;
+}
+/*Making the main image the size of the screen*/
+.main_row img{
+    width: auto;
+    height: 300px;
+}
+/*vh = vertical height*/
